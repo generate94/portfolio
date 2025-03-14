@@ -8,10 +8,7 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Reddit and Patreon Links (for SEO or social media sharing) -->
-    <link rel="icon" href="reddit.png" type="image/png">
-    <link rel="icon" href="patreon.png" type="image/png">
-
+    <!-- Meta tags for social media sharing -->
     <meta property="og:title" content="My Projects">
     <meta property="og:site_name" content="Magic Industries">
     <meta property="og:url" content="https://www.patreon.com/magicindustriessoftware">
@@ -20,13 +17,27 @@
 </head>
 <body class="bg-gray-100 text-gray-900">
     <div class="container mx-auto px-4 py-10">
-        <h1 class="text-3xl font-bold text-center">My Projects</h1>
+        <!-- Header with Reddit and Patreon Icons beside the title -->
+        <header class="flex items-center justify-between mb-8">
+            <h1 class="text-3xl font-bold">My Projects</h1>
+            <div class="flex space-x-4">
+                <!-- Reddit Icon -->
+                <a href="https://www.reddit.com/user/No-Algae1135/" target="_blank">
+                    <img src="reddit.png" alt="Reddit" width="30" height="30">
+                </a>
+                <!-- Patreon Icon -->
+                <a href="https://www.patreon.com/magicindustriessoftware" target="_blank">
+                    <img src="patreon.png" alt="Patreon" width="30" height="30">
+                </a>
+            </div>
+        </header>
+
+        <!-- Project Links -->
         <div class="mt-6 space-y-4 max-w-md mx-auto">
             <a href="https://magicindustries.gumroad.com/l/shred-e" class="block p-4 bg-white shadow rounded-lg hover:bg-gray-200">
                 <h2 class="font-semibold text-lg">Shred-e</h2>
                 <p class="text-sm text-gray-600">Securely Delete Files with Right-Click Convenience (SSD & HDD Support)</p>
             </a>
-            
             
             <a href="https://magicindustries.gumroad.com/l/lockfile" class="block p-4 bg-white shadow rounded-lg hover:bg-gray-200">
                 <h2 class="font-semibold text-lg">LockFile</h2>
