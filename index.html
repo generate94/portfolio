@@ -8,7 +8,10 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Meta tags for social media sharing -->
+    <!-- Update site icon to mgit.png -->
+    <link rel="icon" href="mgit.png" type="image/png">
+
+    <!-- Reddit and Patreon Links (for SEO or social media sharing) -->
     <meta property="og:title" content="My Projects">
     <meta property="og:site_name" content="Magic Industries">
     <meta property="og:url" content="https://www.patreon.com/magicindustriessoftware">
@@ -17,62 +20,83 @@
 </head>
 <body class="bg-gray-100 text-gray-900">
     <div class="container mx-auto px-4 py-10">
-        <!-- Header with Reddit and Patreon Icons beside the title -->
-        <header class="flex items-center justify-between mb-8">
-            <h1 class="text-3xl font-bold">My Projects</h1>
-            <div class="flex space-x-4">
-                <!-- Reddit Icon -->
-                <a href="https://www.reddit.com/user/No-Algae1135/" target="_blank">
-                    <img src="reddit.png" alt="Reddit" width="30" height="30">
-                </a>
-                <!-- Patreon Icon -->
-                <a href="https://www.patreon.com/magicindustriessoftware" target="_blank">
-                    <img src="patreon.png" alt="Patreon" width="30" height="30">
-                </a>
-            </div>
-        </header>
+        <!-- Center the title properly -->
+        <h1 class="text-3xl font-bold text-center mb-6">My Projects</h1>
+        
+        <div class="space-y-6 max-w-4xl mx-auto">
+            <!-- Example project with icon beside the text -->
+            <a href="https://magicindustries.gumroad.com/l/shred-e" class="flex items-center p-4 bg-white shadow rounded-lg hover:bg-gray-200">
+                <!-- You can replace "shred-e.png" with an actual icon for this project -->
+                <img src="shred-e.png" alt="Shred-e Icon" class="w-8 h-8 mr-4">
+                <div>
+                    <h2 class="font-semibold text-lg">Shred-e</h2>
+                    <p class="text-sm text-gray-600">Securely Delete Files with Right-Click Convenience (SSD & HDD Support)</p>
+                </div>
+            </a>
 
-        <!-- Project Links -->
-        <div class="mt-6 space-y-4 max-w-md mx-auto">
-            <a href="https://magicindustries.gumroad.com/l/shred-e" class="block p-4 bg-white shadow rounded-lg hover:bg-gray-200">
-                <h2 class="font-semibold text-lg">Shred-e</h2>
-                <p class="text-sm text-gray-600">Securely Delete Files with Right-Click Convenience (SSD & HDD Support)</p>
+            <a href="https://magicindustries.gumroad.com/l/lockfile" class="flex items-center p-4 bg-white shadow rounded-lg hover:bg-gray-200">
+                <img src="lockfile.png" alt="LockFile Icon" class="w-8 h-8 mr-4">
+                <div>
+                    <h2 class="font-semibold text-lg">LockFile</h2>
+                    <p class="text-sm text-gray-600">Right-click to lock a file in Windows. Double-click to unlock it. Some magic involved.</p>
+                </div>
             </a>
             
-            <a href="https://magicindustries.gumroad.com/l/lockfile" class="block p-4 bg-white shadow rounded-lg hover:bg-gray-200">
-                <h2 class="font-semibold text-lg">LockFile</h2>
-                <p class="text-sm text-gray-600">Right-click to lock a file in Windows. Double-click to unlock it. Some magic involved.</p>
+            <a href="https://magicindustries.gumroad.com/l/naughtyblock" class="flex items-center p-4 bg-white shadow rounded-lg hover:bg-gray-200">
+                <img src="naughtyblock.png" alt="NaughtyBlock Pro Icon" class="w-8 h-8 mr-4">
+                <div>
+                    <h2 class="font-semibold text-lg">NaughtyBlock Pro</h2>
+                    <p class="text-sm text-gray-600">A system-level website blocker that works beyond the browser.</p>
+                </div>
             </a>
-            <a href="https://magicindustries.gumroad.com/l/naughtyblock" class="block p-4 bg-white shadow rounded-lg hover:bg-gray-200">
-                <h2 class="font-semibold text-lg">NaughtyBlock Pro</h2>
-                <p class="text-sm text-gray-600">A system-level website blocker that works beyond the browser.</p>
+
+            <a href="https://chromewebstore.google.com/detail/naughtyblock/galefncjdmobchhfoiojmhpogdoaepae?authuser=0&hl=en-GB" class="flex items-center p-4 bg-white shadow rounded-lg hover:bg-gray-200">
+                <img src="naughtyblockchrome.png" alt="NaughtyBlock Chrome Icon" class="w-8 h-8 mr-4">
+                <div>
+                    <h2 class="font-semibold text-lg">NaughtyBlock (chrome)</h2>
+                    <p class="text-sm text-gray-600">A sassy Chrome extension that blocks sites and adds a bit of pushback on unblocking.</p>
+                </div>
             </a>
-            <a href="https://chromewebstore.google.com/detail/naughtyblock/galefncjdmobchhfoiojmhpogdoaepae?authuser=0&hl=en-GB" class="block p-4 bg-white shadow rounded-lg hover:bg-gray-200">
-                <h2 class="font-semibold text-lg">NaughtyBlock (chrome)</h2>
-                <p class="text-sm text-gray-600">A sassy Chrome extension that blocks sites and adds a bit of pushback on unblocking</p>
+
+            <a href="https://magicindustries.gumroad.com/l/filestotext" class="flex items-center p-4 bg-white shadow rounded-lg hover:bg-gray-200">
+                <img src="filestotext.png" alt="FilesToText Icon" class="w-8 h-8 mr-4">
+                <div>
+                    <h2 class="font-semibold text-lg">FilesToText</h2>
+                    <p class="text-sm text-gray-600">A Windows utility that lets you copy file names and directory structures with a right-click.</p>
+                </div>
             </a>
-            <a href="https://magicindustries.gumroad.com/l/filestotext" class="block p-4 bg-white shadow rounded-lg hover:bg-gray-200">
-                <h2 class="font-semibold text-lg">FilesToText</h2>
-                <p class="text-sm text-gray-600">A Windows utility that lets you copy file names and directory structures with a right-click.</p>
+
+            <a href="https://assemblyreference.com" class="flex items-center p-4 bg-white shadow rounded-lg hover:bg-gray-200">
+                <img src="assemblyreference.png" alt="AssemblyReference.com Icon" class="w-8 h-8 mr-4">
+                <div>
+                    <h2 class="font-semibold text-lg">AssemblyReference.com</h2>
+                    <p class="text-sm text-gray-600">An elasticsearch-powered mobile phone component part number search database. Can set up and host indexes for clients.</p>
+                </div>
             </a>
-            <a href="https://assemblyreference.com" class="block p-4 bg-white shadow rounded-lg hover:bg-gray-200">
-                <h2 class="font-semibold text-lg">AssemblyReference.com</h2>
-                <p class="text-sm text-gray-600">An elasticsearch-powered mobile phone component part number search database. Can set up and host indexes for clients</p>
+
+            <a href="https://github.com/generate94/Push-Clip" class="flex items-center p-4 bg-white shadow rounded-lg hover:bg-gray-200">
+                <img src="pushclip.png" alt="PushClip Icon" class="w-8 h-8 mr-4">
+                <div>
+                    <h2 class="font-semibold text-lg">PushClip (GitHub Project)</h2>
+                    <p class="text-sm text-gray-600">A simple shared clipboard functionality over a local area network (LAN).</p>
+                </div>
             </a>
-            
-            <a href="https://github.com/generate94/Push-Clip" class="block p-4 bg-white shadow rounded-lg hover:bg-gray-200">
-                <h2 class="font-semibold text-lg">PushClip (GitHub Project)</h2>
-                <p class="text-sm text-gray-600">A simple shared clipboard functionality over a local area network (LAN).</p>
+
+            <a href="https://diecastdata.net" class="flex items-center p-4 bg-white shadow rounded-lg hover:bg-gray-200">
+                <img src="diecastdata.png" alt="DiecastData.net Icon" class="w-8 h-8 mr-4">
+                <div>
+                    <h2 class="font-semibold text-lg">DiecastData.net</h2>
+                    <p class="text-sm text-gray-600">A platform to track prices of Amalgam and Exoto diecast models on the secondary market.</p>
+                </div>
             </a>
-            <a href="https://diecastdata.net" class="block p-4 bg-white shadow rounded-lg hover:bg-gray-200">
-                <h2 class="font-semibold text-lg">DiecastData.net</h2>
-                <p class="text-sm text-gray-600">A platform to track prices of Amalgam and Exoto diecast models on the secondary market.</p>
+
+            <a href="https://chromewebstore.google.com/detail/anime-tracker/mnoiaifhilnpefilfpcfigbkglohmclm" class="flex items-center p-4 bg-white shadow rounded-lg hover:bg-gray-200">
+                <img src="anime-tracker.png" alt="Anime Tracker Icon" class="w-8 h-8 mr-4">
+                <div>
+                    <h2 class="font-semibold text-lg">Anime Tracker</h2>
+                    <p class="text-sm text-gray-600">A Chrome extension for scheduling anime release dates in Calendar.</p>
+                </div>
             </a>
-            <a href="https://chromewebstore.google.com/detail/anime-tracker/mnoiaifhilnpefilfpcfigbkglohmclm" class="block p-4 bg-white shadow rounded-lg hover:bg-gray-200">
-                <h2 class="font-semibold text-lg">Anime Tracker</h2>
-                <p class="text-sm text-gray-600">A Chrome extension for scheduling anime release dates in Calendar.</p>
-            </a>
-    
         </div>
     </div>
 </body>
